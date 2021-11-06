@@ -20,6 +20,9 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
+            "allowedCommonJsDependencies": [
+              "rxjs"
+            ],
             "outputPath": "dist/cocktail-app",
             "index": "src/index.html",
             "main": "src/main.ts",
